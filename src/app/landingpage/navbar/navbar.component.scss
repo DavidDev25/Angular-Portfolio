@@ -1,0 +1,13 @@
+.toggle_switch {
+  display: flex;
+  font-size: 18px;
+  button {
+    background-color: transparent;
+    border: none;
+    height: 20px;
+  }
+
+  .vertical-line {
+    font-size: 12px;
+  }
+}
