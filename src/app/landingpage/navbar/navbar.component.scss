@@ -1,13 +1,47 @@
+nav {
+  position: sticky;
+  width: 1920px;
+  background: linear-gradient(#0b042d 100%, #0b042d 20%);
+  padding-left: 140px;
+  padding-right: 140px;
+  padding-bottom: 24px;
+  padding-top: 24px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  width: 90px;
+  height: 40px;
+}
+.navbarText {
+  display: flex;
+  gap: 48px;
+  justify-content: center;
+  align-items: center;
+
+  a {
+    font-size: 20px;
+    color: #e15544;
+    text-decoration: none;
+  }
+}
 .toggle_switch {
   display: flex;
-  font-size: 18px;
+  align-items: center;
+
   button {
     background-color: transparent;
     border: none;
-    height: 20px;
+    color: #e15544;
+    font-size: 18px;
   }
 
   .vertical-line {
-    font-size: 12px;
+    font-size: 16px;
+    color: #e15544;
   }
 }
