@@ -57,3 +57,10 @@ button {
   flex-direction: column;
   justify-content: space-between;
 }
+
+.unneccaressaryArrowDown {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  min-height: 100%;
+}
