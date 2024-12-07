@@ -1,7 +1,11 @@
 nav {
   position: sticky;
-  width: 1920px;
-  background: linear-gradient(#0b042d 100%, #0b042d 20%);
+  top: 0;
+  background: linear-gradient(
+    180deg,
+    #0b042d 63.5%,
+    rgba(11, 4, 45, 0.2) 118.69%
+  );
 }
 
 .navbar {
