@@ -2,15 +2,16 @@ nav {
   position: sticky;
   width: 1920px;
   background: linear-gradient(#0b042d 100%, #0b042d 20%);
-  padding-left: 140px;
-  padding-right: 140px;
-  padding-bottom: 24px;
-  padding-top: 24px;
 }
 
 .navbar {
+  padding-inline: 120px;
+  padding-block: 24px;
   display: flex;
   justify-content: space-between;
+  max-width: 1440px;
+  width: 100%;
+  margin-inline: auto;
 }
 
 img {
