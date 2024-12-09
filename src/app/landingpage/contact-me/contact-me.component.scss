@@ -43,9 +43,6 @@
   gap: 3.0625rem;
 }
 
-.catchPhrase {
-}
-
 .contactInformation {
   display: flex;
   justify-content: center;
@@ -68,5 +65,28 @@ img {
   display: flex;
 }
 
-.contactForm {
+.agreeSection {
+  p {
+    color: #02f4bf;
+    font-size: 14px;
+    font-weight: 400;
+  }
+}
+
+.privPolicyColored {
+  color: #e15544;
+}
+
+input.custom {
+  border-color: #e15544;
+  background: none;
+}
+
+.sendRequestButton {
+  display: flex;
+  color: #827b7b;
+  padding: 15px 30px 15px 30px;
+  gap: 10px;
+  background: transparent;
+  border: 1px solid #827b7b;
 }
