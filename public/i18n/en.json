@@ -9,6 +9,19 @@
     "whyMe": "Why me",
     "description": "I am motivated to continuously learn new technologies and develop myself. My ability to solve complex problems and my passion for programming make me a valuable member of your team.",
     "Iam": "I am",
-    "locatedText": "located in Weißenburg"
+    "locatedText": "located in Weißenburg",
+    "relocate": "open to travel",
+    "remoteWork": "open to work remote",
+    "letsTalkButton": "Let's talk"
+  },
+  "Skills": {
+    "mySkills": "My Skills",
+    "challengeMe": "Challenge Me",
+    "challengeMeHidden": "I am always happy to learn new technologies, just tell me what you need"
+  },
+  "MyProjects": {
+    "headLine": "Meine Projekte",
+    "joinText": "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.",
+    "ElPolloLocoText": "Jump, run and throw game based on object-oriented approach. Help Pepe to find coins and Tabasco salsa to fight against the crazy hen."
   }
 }
