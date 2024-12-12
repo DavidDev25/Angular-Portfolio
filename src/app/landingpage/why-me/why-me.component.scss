@@ -13,7 +13,7 @@
   display: flex;
   flex-direction: column;
   h3 {
-    font-size: 48px;
+    font-size: 26px;
     font-weight: bold;
     color: #e15544;
   }
@@ -79,6 +79,7 @@
     line-height: 19.2px;
     color: #02f4bf;
     text-align: right;
+    padding-left: 30px;
   }
 }
 
@@ -97,8 +98,9 @@ button {
   justify-content: end;
 }
 
-.test {
+.roadmap {
   display: flex;
   flex-direction: column;
   gap: 33px;
+  padding-left: 300px;
 }

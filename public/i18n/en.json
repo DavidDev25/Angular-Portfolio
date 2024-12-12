@@ -1,0 +1,14 @@
+{
+  "navbar": {
+    "whyMe": "Why me",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "whyMe": {
+    "whyMe": "Why me",
+    "description": "I am motivated to continuously learn new technologies and develop myself. My ability to solve complex problems and my passion for programming make me a valuable member of your team.",
+    "Iam": "I am",
+    "locatedText": "located in Weißenburg"
+  }
+}

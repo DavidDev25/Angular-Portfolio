@@ -20,8 +20,7 @@ textarea {
 }
 
 textarea {
-  height: 144px;
-  width: 637px;
+  width: 795px;
 }
 
 #name,
@@ -55,6 +54,7 @@ textarea {
   padding-inline: 50px;
   padding-block: 20px;
   color: white;
+  justify-content: space-between;
 }
 
 .checkboxItem {
@@ -102,4 +102,26 @@ textarea {
 
 span {
   color: #e15544;
+}
+
+.confirmationSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+textarea::placeholder {
+  padding-left: 10px;
+  padding-top: 10px;
+  font-size: 14px;
+}
+
+#name::placeholder,
+#email::placeholder {
+  padding-left: 10px;
+}
+
+.sendbutton {
+  margin-top: 60px;
 }

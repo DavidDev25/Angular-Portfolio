@@ -1,17 +1,17 @@
 <nav>
-    <div class="navbar">
+    <div class="navbar"> <!-- Variablen durch die Namen ersetzen für Language switch-->
         <div class="navbarText">
             <img src="/DWLogo.svg" alt="DWLogo">
-            <a href="">Why me</a>
-            <a href=" MySkills">Skills</a>
-            <a href="">Projects</a>
-            <a href="">Contact</a>
+            <a href="">{{ 'navbar.whyMe' | translate}}</a>
+            <a href="">{{ 'navbar.skills' | translate}}</a>
+            <a href="">{{ 'navbar.projects' | translate}}</a>
+            <a href="">{{ 'navbar.contact' | translate}}</a>
         </div>
 
         <div class="toggle_switch">
-            <button>DE</button>
+            <button (click)="translate.switchLanguage('de')">DE</button>
             <div class="vertical-line">|</div>
-            <button>EN</button>
+            <button (click)="translate.switchLanguage('en')">EN</button>
         </div>
     </div>
 </nav>

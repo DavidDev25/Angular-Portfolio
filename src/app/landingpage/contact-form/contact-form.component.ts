@@ -48,8 +48,5 @@ export class ContactFormComponent {
     } else if (ngForm.submitted && ngForm.form.valid && this.mailTest) {
       ngForm.resetForm();
     }
-    if (!this.contactData.name.ngForm.valid && this.contactData.name.touched) {
-      this.placeholdertext = 'Please enter a Name with more then 2 characters';
-    }
   }
 }
