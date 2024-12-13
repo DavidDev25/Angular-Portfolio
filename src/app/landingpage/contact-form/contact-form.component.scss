@@ -27,6 +27,7 @@ textarea {
 #email {
   height: 56px;
   width: 507px;
+  color: white;
 }
 
 .contactFormWrapper {
@@ -69,7 +70,9 @@ textarea {
 .checkboxItem:not(:last-of-type) {
   margin-bottom: 16px;
 }
-
+.span {
+  color: white;
+}
 .checkbox {
   appearance: none;
   position: relative;
@@ -100,7 +103,7 @@ textarea {
   background-color: #02f4bf;
 }
 
-span {
+.privacy-highlight {
   color: #e15544;
 }
 
@@ -117,6 +120,10 @@ textarea::placeholder {
   font-size: 14px;
 }
 
+textarea {
+  color: white;
+}
+
 #name::placeholder,
 #email::placeholder {
   padding-left: 10px;
@@ -124,4 +131,8 @@ textarea::placeholder {
 
 .sendbutton {
   margin-top: 60px;
+}
+
+.privacyTwo {
+  color: #e15544;
 }
