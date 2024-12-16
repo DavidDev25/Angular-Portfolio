@@ -18,8 +18,8 @@
                     {{ 'MyProjects.joinText' | translate}}
                 </p>
                 <div class="buttongroup">
-                    <button class="gitHubButton">Github</button>
-                    <button class="liveTestButton">Live Test</button>
+                    <button class="gitHubButton" (click)="redirectJoin()">Github</button>
+                    <button class="liveTestButton" (click)="redirectJoinLive()">Live Test</button>
                 </div>
             </div>
         </div>
@@ -40,8 +40,8 @@
                     {{ 'MyProjects.ElPolloLocoText' | translate}}
                 </p>
                 <div class="buttongroup">
-                    <button class="gitHubButton">Github</button>
-                    <button class="liveTestButton">Live Test</button>
+                    <button class="gitHubButton" (click)="redirect()"> Github</button>
+                    <button class="liveTestButton" (click)="redirectPolloLive()">Live Test</button>
                 </div>
             </div>
         </div>
